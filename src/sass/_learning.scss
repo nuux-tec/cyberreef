@@ -1,4 +1,29 @@
 /************Team css start***************/
+.products {
+  padding: 5em 0;
+}
+
+.product {
+  padding: 4em 0;
+
+  .product_image {
+    height: 300px;
+    width: auto;
+  }
+
+  &.left {
+    .product_description {
+      padding-right: 5em;
+    }
+  }
+  
+  &.right {
+    .product_description {
+      padding-left: 5em;
+    }
+  }
+}
+
 .learning_part {
   position: relative;
   z-index: 99;

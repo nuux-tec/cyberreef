@@ -1857,6 +1857,19 @@ ul {
       padding-top: 70px; } }
 
 /************Team css start***************/
+.products {
+  padding: 5em 0; }
+
+.product {
+  padding: 4em 0; }
+  .product .product_image {
+    height: 300px;
+    width: auto; }
+  .product.left .product_description {
+    padding-right: 5em; }
+  .product.right .product_description {
+    padding-left: 5em; }
+
 .learning_part {
   position: relative;
   z-index: 99;
@@ -2299,6 +2312,8 @@ ul {
     margin-bottom: 20px; } }
 
 .special_cource .single_special_cource .special_cource_text {
+  max-height: 300px;
+  overflow-y: scroll;
   padding: 35px 35px 40px;
   border: 1px solid #edeff2;
   border-top: 0px; }
