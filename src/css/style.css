@@ -127,7 +127,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
   transition: 1s; }
 
 .section_tittle {
-  margin-bottom: 110px; }
+  margin-bottom: 100px; }
   @media (max-width: 576px) {
     .section_tittle {
       margin-bottom: 50px; } }
@@ -1505,8 +1505,7 @@ ul {
       color: #556172;
       margin-bottom: 14px; }
     .banner_part .banner_text h1 {
-      font-size: 55px;
-      text-transform: capitalize;
+      font-size: 50px;
       font-weight: 700;
       margin-bottom: 27px;
       line-height: 1.18; }
@@ -1733,7 +1732,7 @@ ul {
 .feature_part {
   padding-top: 65px; }
   .feature_part .single_feature_text h2 {
-    font-size: 42px;
+    font-size: 30px;
     line-height: 1.222;
     margin-bottom: 20px; }
     @media (max-width: 576px) {
@@ -1752,7 +1751,7 @@ ul {
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
       .feature_part .single_feature_text h2 {
         margin-top: 0px;
-        font-size: 35px; } }
+        font-size: 30px; } }
   .feature_part .single_feature_text p {
     line-height: 1.8; }
   .feature_part .single_feature_text .btn_1 {
@@ -1861,7 +1860,7 @@ ul {
 .learning_part {
   position: relative;
   z-index: 99;
-  padding: 189px 0px 210px; }
+  padding: 100px 0px 210px; }
   @media (max-width: 576px) {
     .learning_part {
       padding: 70px 0px; } }
@@ -1880,10 +1879,7 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 70% 100%;
-    background-position: left top;
-    position: absolute;
-    left: -134px;
-    bottom: -69px; }
+    background-position: left top; }
     @media (max-width: 576px) {
       .learning_part .learning_img {
         position: inherit;
@@ -1946,9 +1942,9 @@ ul {
       content: "";
       background-color: #ff663b; }
   .learning_part .learning_member_text h2 {
-    font-size: 42px;
+    font-size: 28px;
     font-weight: 600;
-    line-height: 1.1;
+    line-height: 1.3;
     margin-bottom: 38px;
     position: relative;
     margin-top: 19px; }
@@ -2054,7 +2050,15 @@ ul {
             left: 15px;
             padding-top: 6px; } }
   .learning_part .learning_member_text .btn_1 {
-    margin-top: 6px; }
+    margin-top: 15px; }
+  .learning_part.feature_1 {
+    padding: 100px 0 130px; }
+  .learning_part.feature_2 {
+    padding: 50px 0 130px; }
+    .learning_part.feature_2 .learning_img {
+      background-position: right top; }
+  .learning_part.feature_3 {
+    padding: 70px 0 0px; }
 
 .advance_feature {
   padding: 169px 0px 171px; }
@@ -2118,6 +2122,9 @@ ul {
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .advance_feature .learning_img img {
           padding: 0px; } }
+    .advance_feature .learning_img.feature_2 {
+      right: 0;
+      left: initial; }
   .advance_feature .learning_member_text_iner span {
     height: 60px;
     width: 60px;
@@ -2267,6 +2274,13 @@ ul {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .special_cource {
     padding: 70px 0px 50px; } }
+
+.special_cource .special_cource_description {
+  max-width: 700px; }
+
+.special_cource .code {
+  padding: 2em 0 10em;
+  width: 300px; }
 
 @media (max-width: 576px) {
   .special_cource .single_special_cource {
