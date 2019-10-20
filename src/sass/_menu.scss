@@ -11,7 +11,12 @@
 
 	.navbar {
 		padding: 20px 0px;
+
+		.navbar-brand img {
+			height: 50px;
+		}
 	}
+
 	.navbar-toggler{
 		position: relative;
 		z-index: 1;

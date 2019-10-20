@@ -1255,6 +1255,8 @@ ul {
     padding: 0rem !important; }
   .main_menu .navbar {
     padding: 20px 0px; }
+    .main_menu .navbar .navbar-brand img {
+      height: 50px; }
   .main_menu .navbar-toggler {
     position: relative;
     z-index: 1; }
@@ -1586,13 +1588,13 @@ ul {
           padding: 10px 25px; } }
   .banner_part:after {
     position: absolute;
-    top: 163px;
+    top: 200px;
     width: 41%;
-    height: 69%;
+    height: 46%;
     content: "";
-    background-image: url(../img/banner_img.png);
+    background-image: url(../img/fish.svg);
     background-size: 100% 100%;
-    right: 9%; }
+    right: 6%; }
     @media (max-width: 576px) {
       .banner_part:after {
         position: absolute;
@@ -1600,7 +1602,7 @@ ul {
         max-width: 100%;
         max-height: 100%;
         content: "";
-        background-image: url(../img/banner_img.png);
+        background-image: url(../img/fish.svg);
         background-size: contain;
         right: 0;
         left: 0;
@@ -1614,7 +1616,7 @@ ul {
         max-width: 100%;
         max-height: 100%;
         content: "";
-        background-image: url(../img/banner_img.png);
+        background-image: url(../img/fish.svg);
         background-size: contain;
         right: 0;
         left: 0;
@@ -1628,7 +1630,7 @@ ul {
         max-width: 100%;
         max-height: 100%;
         content: "";
-        background-image: url(../img/banner_img.png);
+        background-image: url(../img/fish.svg);
         background-size: contain;
         right: 0;
         left: 0;
@@ -1641,11 +1643,11 @@ ul {
         max-width: 100%;
         max-height: 100%;
         content: "";
-        background-image: url(../img/banner_img.png);
+        background-image: url(../img/fish.svg);
         background-size: contain;
         right: 5%;
         bottom: 0;
-        top: auto;
+        top: 35%;
         background-repeat: no-repeat; } }
 
 /**************** hero part css end ****************/
