@@ -4021,6 +4021,24 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.breadcrumb_bg_products {
+  background-image: url("../img/products.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.breadcrumb_bg_contact {
+  background-image: url("../img/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.breadcrumb_bg_videos {
+  background-image: url("../img/videos.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .breadcrumb {
   position: relative;
   z-index: 1;

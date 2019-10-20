@@ -2,6 +2,18 @@
 	@include background("../img/breadcrumb.png");
 }
 
+.breadcrumb_bg_products {
+	@include background("../img/products.jpg");
+}
+
+.breadcrumb_bg_contact {
+	@include background("../img/contact.jpg");
+}
+
+.breadcrumb_bg_videos {
+	@include background("../img/videos.jpg");
+}
+
 .breadcrumb {
 	position: relative;
 	z-index: 1;
