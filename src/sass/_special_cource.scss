@@ -49,8 +49,6 @@
         @media #{$medium_device} {}
 
         .special_cource_text {
-            max-height: 300px;
-            overflow-y: scroll;
             padding: 35px 35px 40px;
             border: 1px solid $border_color;
             border-top: 0px;
