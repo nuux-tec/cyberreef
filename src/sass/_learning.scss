@@ -24,6 +24,32 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .product {
+    &.left {
+      .product_description {
+        padding-top: 2em;
+        padding-right: 0;
+      }
+
+      .container {
+        flex-wrap: wrap-reverse;
+      }
+    }
+
+    &.right {
+      .product_description {
+        padding-top: 2em;
+        padding-left: 0;
+      }
+
+      .container {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
 .learning_part {
   position: relative;
   z-index: 99;

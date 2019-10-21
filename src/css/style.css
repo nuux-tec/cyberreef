@@ -1872,6 +1872,18 @@ ul {
   .product.right .product_description {
     padding-left: 5em; }
 
+@media screen and (max-width: 767px) {
+  .product.left .product_description {
+    padding-top: 2em;
+    padding-right: 0; }
+  .product.left .container {
+    flex-wrap: wrap-reverse; }
+  .product.right .product_description {
+    padding-top: 2em;
+    padding-left: 0; }
+  .product.right .container {
+    flex-wrap: wrap; } }
+
 .learning_part {
   position: relative;
   z-index: 99;
